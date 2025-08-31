@@ -1,0 +1,403 @@
+/* ============================Pagina produtos=================================================================================== */
+
+.container {
+    display: flex;
+    padding: 20px;
+   
+   
+   
+ }
+ 
+ /*====================================================ESPAÇAMENTOS ESTILIZAÇÃO====================================================*/
+ 
+ .container  .apresentacao{
+     width: 500px;  
+     margin-right: 350px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: larger;
+     font-weight: 600;
+ }
+ 
+ button {
+     width: 100px;
+     height: 50px;
+     margin-top: 10px;
+     border-radius: 50px;
+     border: 1px solid black;
+ }
+ /*===================================================ESTADOS DO BOTÃO CORES====================================================*/
+ button:hover{
+     background-color: #cd853f;
+     color: honeydew;
+     border: 2px solid black;
+     font-weight: bold;
+     transition: 0.3s ease;
+     cursor: pointer;
+ } 
+ 
+ .apresentacao p {
+     margin-top: 10px;
+    
+ }
+ .apresentacao-2 button:hover{
+     background-color: #90ee90;
+     color: green;
+ }
+ 
+ .apresentacao-3 button:hover{
+     background-color: orange;
+     color: honeydew;
+ } 
+ 
+ .apresentacao-4 button:hover{
+     background-color:#7F00FF ;
+     color: honeydew;
+ } 
+ 
+ .apresentacao-5 button:hover{
+     background-color:rgb(45, 53, 156); 
+     color:honeydew;
+ } 
+ 
+ .apresentacao-6 button:hover{
+     background-color:rgb(201, 68, 179) ;
+     color: honeydew
+ } 
+ 
+ .apresentacao-7 button:hover{
+     background-color:#ddae15ef ; 
+     color: honeydew;
+ } 
+ 
+ .apresentacao-8 button:hover{
+     background-color:#ff8C00 ; 
+     color: honeydew;
+ } 
+ 
+ .apresentacao-9 button:hover{
+     background-color:#f5A623 ; 
+     color: honeydew;
+ } 
+ 
+ .apresentacao-10 button:hover{
+     background-color:#ffbf00 ; 
+     color: honeydew;
+ } 
+ 
+ .apresentacao-11 button:hover{
+     background-color: #c87a00 ; 
+     color: honeydew;
+ } 
+ 
+ .apresentacao-12 button:hover{
+     background-color: #d4a017 ; 
+     color: honeydew;
+ } 
+ 
+ .apresentacao-13 button:hover{
+     background-color: #d45912 ; 
+     color: honeydew;
+ } 
+ 
+ .apresentacao-14 button:hover{
+     background-color: #d66727 ; 
+ ; 
+     color: honeydew;
+ } 
+ .apresentacao-15 button:hover{
+     background-color: #008000  ; 
+ ; 
+     color: honeydew;
+ } 
+ 
+ .apresentacao-16 button:hover{
+     background-color: #ec6619 ; 
+ 
+     color: honeydew;
+ } 
+ .apresentacao-17 button:hover{
+     background-color: #f17048 ; 
+ 
+     color: honeydew;
+ } 
+ .apresentacao-18 button:hover{
+     background-color: #28b2e0 ; 
+ ; 
+     color: honeydew;
+ } 
+ .apresentacao-19 button:hover{
+     background-color: #0000FF ; 
+ 
+     color: honeydew;
+ } 
+ .apresentacao-20 button:hover{
+     background-color: #4343ff ; 
+  
+     color: honeydew;
+ } 
+ .apresentacao-21 button:hover{
+     background-color: #1612fd ; 
+  
+     color: honeydew;
+ } 
+ 
+ 
+ /*====================================================CONTAINER====================================================*/
+ 
+ .container img {
+     border-radius: 10px;
+ }
+ 
+ .descricao h2, dl{
+     margin: 20px;
+ }
+ /*====================================================FONTES E CORES====================================================*/
+ .descricao  dl  dd  {
+     padding: 15px;
+     margin-bottom: 15px;
+     border-radius: 10px;
+ 
+ }
+ 
+ .descricao   {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: larger;
+     padding: 15px;
+    
+ }
+ 
+ .descricao dt   {
+     font-weight: bold;
+     
+    
+ }
+ 
+ /*Texto das descrições de cada produto*/
+ /*-------------------------------------------------------descrição 1*/
+ 
+ .descricao dl dd{
+     background-color: #cd853f ; 
+ 
+ }
+ 
+ .descricao {
+     background-color: #eed7b2;
+ }
+ /*--------------------------C9D66F-----90ee90--------------descrição 2*/
+ .descricao-2 dl dd {
+     background-color: #C9D66F;
+ }  
+ 
+  section .descricao-2{
+     background-color: #90ee90;
+ }
+ 
+ /*-------------------------------------------------------descrição 3*/
+ 
+ .descricao-3 dl dd{
+     background-color: orange ; 
+ 
+ }
+ 
+ section .descricao-3 {
+     background-color: #ffcc80;
+ }
+ 
+ /*-------------------------------------------------------descrição 4*/
+ 
+ 
+ .descricao-4 dl dd{
+     background-color: #7F00FF ; 
+ 
+ }
+ 
+ section .descricao-4 {
+     background-color: #bb86f0;
+ }
+ 
+ /*-------------------------------------------------------descrição 5*/
+ .descricao-5 dl dd{
+     background-color: rgb(45, 53, 156) ; 
+ 
+ }
+ 
+ section .descricao-5 {
+     background-color: powderblue;
+ }
+ 
+ /*-------------------------------------------------------descrição 6*/
+ 
+ .descricao-6 dl dd{
+     background-color:  rgb(201, 68, 179) ; 
+ 
+ }
+ section .descricao-6 {
+     background-color:rgb(225, 131, 228) ; 
+ }
+ 
+ /*-------------------------------------------------------descrição 7*/
+ 
+ .descricao-7 dl dd{
+     background-color: #ddae15ef ;
+ 
+ }
+ section .descricao-7 {
+     background-color:#e4d39def ;  
+ }
+ 
+ /*-------------------------------------------------------descrição 8*/
+ 
+ .descricao-8 dl dd{
+     background-color: #ff8C00 ;
+ 
+ }
+ section .descricao-8 {
+     background-color:#e4d39def ;  
+ }
+ 
+ /*-------------------------------------------------------descrição 9*/
+ 
+ .descricao-9 dl dd{
+     background-color: #f5A623 ; 
+  
+ 
+ }
+ section .descricao-9 {
+     background-color:#f0c795 ;  
+ }
+ 
+ /*-------------------------------------------------------descrição 10*/
+ 
+ .descricao-10 dl dd{
+     background-color: #ffbf00 ; 
+  
+ 
+ }
+ section .descricao-10 {
+     background-color: #c49c5c ;   
+ }
+ 
+ /*-------------------------------------------------------descrição 11*/
+ 
+ .descricao-11 dl dd{
+     background-color: #c87a00 ; 
+      
+ }
+ section .descricao-11 {
+     background-color: #daa755 ;  
+ }   
+ /*-------------------------------------------------------descrição 12*/
+ 
+ .descricao-12 dl dd{
+     background-color: #d4a017 ; 
+  ;
+ 
+ }
+ section .descricao-12 {
+     background-color: #ebce87 ; 
+ }
+ 
+ /*-------------------------------------------------------descrição 13*/
+ 
+ .descricao-13 dl dd{
+     background-color: #d45912 ; 
+  
+ 
+ }
+ section .descricao-13 {
+     background-color:#ee9662 ;  
+ }
+ /*-------------------------------------------------------descrição 14*/
+ 
+ .descricao-14 dl dd{
+    background-color: #d66727 ; 
+  
+ 
+ }
+ section .descricao-14 {
+     background-color:#e9aa85 ;  
+ }
+ /*-------------------------------------------------------descrição 15*/
+ 
+ .descricao-15 dl dd{
+     background-color: #008000 ; 
+  ;
+ 
+ }
+ section .descricao-15 {
+     background-color:#50C878 ;  
+ }
+ /*-------------------------------------------------------descrição 16*/
+ 
+ .descricao-16 dl dd{
+     background-color: #ec6619 ; 
+  ;
+ 
+ }
+ section .descricao-16 {
+     background-color:#eebc9f ;  
+ }
+ /*-------------------------------------------------------descrição 17*/
+ 
+ .descricao-17 dl dd{
+     background-color: #f17048  ; 
+  
+ 
+ }
+ section .descricao-17 {
+     background-color:#faccbe  ;  
+ }
+ /*-------------------------------------------------------descrição 18*/
+ 
+ .descricao-18 dl dd{
+     background-color: #28b2e0 ; 
+  ;
+ 
+ }
+ section .descricao-18 {
+     background-color:#b4e2f1 ;  
+ }
+ /*-------------------------------------------------------descrição 19*/
+ 
+ .descricao-19 dl dd{
+     background-color: #3030dd ; 
+  ;
+ 
+ }
+ section .descricao-19 {
+     background-color:#8787ee ;  
+ }
+ 
+ /*-------------------------------------------------------descrição 20*/
+ 
+ .descricao-20 dl dd{
+     background-color: #3030dd ; 
+  ;
+ 
+ }
+ section .descricao-20 {
+     background-color:#4343ff ;  
+ }
+ 
+ /*-------------------------------------------------------descrição 21*/
+ 
+ .descricao-21 dl dd{
+     background-color: #1612fd ; 
+  ;
+ 
+ }
+ section .descricao-21 {
+     background-color:#7381ff ;  
+ }
+ 
+ 
+ 
+ /*====================================================ESTADOS DE COMPORTAMENTO DA DESCRIÇÃO DE LISTAS====================================================*/
+ 
+ .descricao dd:hover{
+     color: honeydew;
+     opacity: 0.5;
+     transition: 0.3s ease;
+ }
+ 
+ 
